@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моя перша сторінка</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="main-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home">Франків Георгій</a>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#features">Навчання</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#links">Посилання</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <h1 id="page-title">Вітаю на моїй сторінці</h1>
+          <div class="card">
+            <p class="intro">
+              Мене звати Франків Георгій , і я вивчаю <strong>web-розробку</strong>. Це моя
+              четверта практична робота, у якій я знайомлюсь із <em>позиціонуванням елементів у CSS</em>.
+            </p>
+            <img
+              class="main-image"
+              src="https://picsum.photos/id/180/1200/600"
+              alt="Робоче місце веб-розробника"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title">Про мене</h2>
+          <div class="card">
+            <p>
+              Я навчаюсь створювати сайти. Спочатку я вивчив <strong>HTML</strong>, а
+              тепер додаю до сторінок <span class="highlight">красиве оформлення</span>
+              та сучасні макети на основі Flexbox і CSS Grid.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="container">
+          <h2 class="section-title">Що я вивчаю</h2>
+          <div class="card">
+            <span class="badge">НОВИНКА</span>
+            <h3>Основні технології</h3>
+            <ul>
+              <li>HTML — структура сторінки</li>
+              <li>CSS — оформлення сторінки</li>
+              <li>JavaScript — поведінка сторінки</li>
+            </ul>
+
+            <h3>План навчання</h3>
+            <ol>
+              <li>Створити файл index.html</li>
+              <li>Підключити файл style.css</li>
+              <li>Написати стилі для тексту</li>
+              <li>Освоїти Flexbox та CSS Grid</li>
+            </ol>
+          </div>
+
+          <div class="card">
+            <h3>Складові блокової моделі</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Складова</th>
+                  <th>Властивість</th>
+                  <th>Призначення</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Вміст</td>
+                  <td>width, height</td>
+                  <td>Розміри самого елемента</td>
+                </tr>
+                <tr>
+                  <td>Внутрішній відступ</td>
+                  <td>padding</td>
+                  <td>Відстань від вмісту до рамки</td>
+                </tr>
+                <tr>
+                  <td>Рамка</td>
+                  <td>border</td>
+                  <td>Межа навколо елемента</td>
+                </tr>
+                <tr>
+                  <td>Зовнішній відступ</td>
+                  <td>margin</td>
+                  <td>Відстань до сусідніх елементів</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="container">
+          <h2 class="section-title">Галерея</h2>
+          <div class="card">
+            <div class="grid-gallery">
+              <img src="https://picsum.photos/id/1015/300/200" alt="Річка в горах" />
+              <img src="https://picsum.photos/id/1018/300/200" alt="Гірський пейзаж" />
+              <img src="https://picsum.photos/id/1039/300/200" alt="Водоспад" />
+              <img src="https://picsum.photos/id/1043/300/200" alt="Ліс" />
+              <img src="https://picsum.photos/id/1016/300/200" alt="Каньйон" />
+              <img src="https://picsum.photos/id/1035/300/200" alt="Гірський водоспад" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="links">
+        <div class="container">
+          <h2 class="section-title">Корисні посилання</h2>
+          <div class="card">
+            <p>
+              Дізнатись більше можна на сайтах
+              <a href="https://developer.mozilla.org/uk/">MDN Web Docs</a> та
+              <a href="https://www.w3schools.com/css/">W3Schools</a>.
+            </p>
+            <p>
+              <span class="highlight">Примітка:</span> наведіть курсор на посилання,
+              щоб побачити зміну кольору.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Франків Георгій. Практична робота №4</p>
+      </div>
+    </footer>
+
+    <a class="back-to-top" href="#home" aria-label="Нагору">&uarr;</a>
+  </body>
+</html>
